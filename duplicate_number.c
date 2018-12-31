@@ -15,7 +15,7 @@ bool solution(int arr[], site_t arr_len) {
 
 		if(s > 1) {
 			answer = false;
-			break;
+			return answer;
 		}
 	}
 	
