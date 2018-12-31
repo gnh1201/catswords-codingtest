@@ -7,7 +7,7 @@ bool solution(int arr[], site_t arr_len) {
 
 	for (int i = 0; i < arr_len; i++) {
 		int s = 0;
-		for (int j = 0; j < arr_len; i++) {
+		for (int j = 0; j < arr_len; j++) {
 			if (arr[i] == arr[j]) {
 				s += 1;
 			}
